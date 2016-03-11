@@ -1,0 +1,32 @@
+.flipbook-sheet {
+	background-color: white;
+	border: solid 1px black;
+}
+
+.image-360 img {
+	height: 200px !important;
+	width: auto !important;
+}
+
+.image-360 {
+	padding: 1em;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.flipbook h3{
+	color: black !important;
+	font-weight: bold;
+}
+
+.model-information {
+	display: inline-block;
+	vertical-align: top;
+	color: black;
+	font-weight: bold;
+}
+
+.foto-suela {
+	height: 200px;
+}

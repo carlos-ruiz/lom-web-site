@@ -3,7 +3,9 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="language" content="en">
+		<meta name="language" content="es">
+
+		<link rel="shortcut icon" href="<?= Yii::app()->request->baseurl; ?>/images/logos/favicon.ico">
 
 		<!-- blueprint CSS framework -->
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
@@ -14,7 +16,10 @@
 
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/flipbook.css">
 
 		<!-- Importing scripts -->
 		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery-1.12.1.min.js"></script>
@@ -32,17 +37,28 @@
 	<body>
 		<div class="container" id="page">
 			<div id="header">
-				<div id="logo">Catálogo de productos</div>
+				<div id="logo"><img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100"> Catálogo de productos <img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100"></div>
 			</div><!-- header -->
-
+			<hr/>
 			<?php echo $content; ?>
 
 			<div class="clear"></div>
 
 			<div id="footer">
-				Copyright &copy; <?php echo date('Y'); ?> by Botas y Botines BOM.<br/>
-				All Rights Reserved.<br/>
-				<?php echo Yii::powered(); ?>
+				<div class="col-md-4">
+					Dirección<br/>
+					Ana María Gallaga #160, Centro<br/>
+					Huaniqueo de Morales, Michoacán
+				</div>
+				<div class="col-md-4">
+					Copyright &copy; <?php echo date('Y'); ?> by Botas y Botines BOM.<br/>
+					Todos los derechos reservados.<br/>
+				</div>
+				<div class="col-md-4">
+					Contacto<br/>
+					Teléfono: 01 (454) 382 01 57<br/>
+					Correo electrónico: <a href="mailto:calzadobom2015@gmail.com">calzadobom2015@gmail.com</a><br/><br/>
+				</div>
 			</div><!-- footer -->
 
 		</div><!-- page -->

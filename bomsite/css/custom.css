@@ -2,6 +2,46 @@
 	width: 100%;
 }
 
+body {
+	background-color: rgb(255, 132, 132);
+}
+
 #page {
+	padding: 0;
 	margin: 0;
+	background-color: rgb(255, 132, 132);
+}
+
+#header {
+	text-align: center;
+    font-size: 14pt;
+    font-family: sans-serif;
+    text-shadow: 1px 1px #FFFFFF;
+    border: 0;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+#footer {
+	font-weight: bold;
+}
+
+#footer a {
+	color: red;
+}
+
+.title h1 {
+	color: #EC2335;
+	font-weight: bold;
+	font-size: 32pt;
 }
