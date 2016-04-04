@@ -835,9 +835,82 @@
 				
 				<div class="row">
 					<div class="col-md-7 align-center">
-						<img id="img_24" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg"/>
+						<img id="img_24" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg"/>
 						 
 						<div id="gallery_24" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						Texto informativo
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_23").elevateZoom({gallery:'gallery_23', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_23").bind("click", function(e) {  
+						  var ez =   $('#img_23').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_24").elevateZoom({gallery:'gallery_24', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_24").bind("click", function(e) {  
+						  var ez =   $('#img_24').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center">
+						<img id="img_25" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg"/>
+						 
+						<div id="gallery_25" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						Texto informativo
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-7 align-center">
+						<img id="img_26" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg"/>
+						 
+						<div id="gallery_26" class="gallery"> 
 							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg">
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/derecho.jpg" />
 							  </a>
@@ -860,18 +933,18 @@
 					</div>
 				</div>
 				<script type="text/javascript">
-					$("#img_23").elevateZoom({gallery:'gallery_23', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					$("#img_25").elevateZoom({gallery:'gallery_25', cursor: 'pointer', galleryActiveClass: 'active'}); 
 					//pass the images to Fancybox
-					$("#img_23").bind("click", function(e) {  
-						  var ez =   $('#img_23').data('elevateZoom'); 
+					$("#img_25").bind("click", function(e) {  
+						  var ez =   $('#img_25').data('elevateZoom'); 
 						 $.fancybox(ez.getGalleryList());
 						  return false;
 					});
 
-					$("#img_24").elevateZoom({gallery:'gallery_24', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					$("#img_26").elevateZoom({gallery:'gallery_26', cursor: 'pointer', galleryActiveClass: 'active'}); 
 					//pass the images to Fancybox
-					$("#img_24").bind("click", function(e) {  
-						  var ez =   $('#img_24').data('elevateZoom'); 
+					$("#img_26").bind("click", function(e) {  
+						  var ez =   $('#img_26').data('elevateZoom'); 
 						 $.fancybox(ez.getGalleryList());
 						  return false;
 					});
