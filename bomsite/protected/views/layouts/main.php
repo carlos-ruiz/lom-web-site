@@ -23,13 +23,15 @@
 
 		<!-- Importing scripts -->
 		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery-1.12.1.min.js"></script>
-		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery.mousewheel.min.js"></script>
-		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery.mobile-1.4.5.min.js"></script>
 		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/javascriptviewer_jso.js"></script>
 		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/turnjs/extras/modernizr.2.5.3.min.js"></script>
-		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/turnjs/lib/hash.js"></script>
-		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/turnjs/lib/turn.min.js"></script>
+		<!-- End importing scripts -->
+
+		<!-- Importing plugins for zoom gallery -->
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/plugins/fancybox/jquery.fancybox-1.3.4.css">
+		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/assets/plugins/elevate_zoom/jquery.elevateZoom-3.0.8.min.js"></script>
+		<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/assets/plugins/fancybox/jquery.fancybox-1.3.4.js"></script>
+		<!-- End importing plugins for zoom gallery -->
 
 		<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 	</head>
@@ -63,4 +65,12 @@
 
 		</div><!-- page -->
 	</body>
+	<!-- Importing more scripts -->
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/plugins/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/turnjs/lib/hash.js"></script>
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/turnjs/lib/turn.min.js"></script>
+	<script type="text/javascript" src="<?= Yii::app()->request->baseUrl ?>/js/custom.js"></script>
+	<!-- End importing scripts -->
 </html>

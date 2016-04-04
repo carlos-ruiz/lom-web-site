@@ -3,13 +3,13 @@
 }
 
 body {
-	background-color: rgb(255, 132, 132);
+	background-color: #B71010;
 }
 
 #page {
 	padding: 0;
 	margin: 0;
-	background-color: rgb(255, 132, 132);
+	background-color: #B71010;
 }
 
 #header {
@@ -34,10 +34,12 @@ body {
 
 #footer {
 	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 #footer a {
-	color: red;
+	color: white;
 }
 
 .title h1 {
@@ -45,3 +47,87 @@ body {
 	font-weight: bold;
 	font-size: 32pt;
 }
+.center-vertical {
+	height: 100%;
+	margin: 0 auto;
+}
+
+#logo {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.centered-container
+{
+    text-align: center;
+}
+
+.centered-container:before
+{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centered
+{
+    display: inline-block;
+    vertical-align: middle;
+    /*for demonstration only*/
+    -moz-transition: font-size linear 1s;
+    -o-transition: font-size linear 1s;
+    -webkit-transition: font-size linear 1s;
+    transition: font-size linear 1s;
+}
+
+/*Galeria propia*/
+.product-details {
+	padding: 10px;
+}
+
+.big-image {
+	padding: 10px;
+	text-align: center;
+}
+
+.big-image img {
+	max-height: 320px;
+}
+
+.thumbnails {
+	display: flex;
+	justify-content: space-between;
+}
+
+.thumbnails img {
+	border: solid 1px red;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px;
+	max-height: 80px;
+	min-height: 50px;
+	padding: 2px;
+}
+
+.thumbnails img:first-child{
+	margin-left: 0;
+}
+
+.thumbnails img:last-child{
+	margin-right: 0;
+}
+/*Fin galeria propia*/
+
+/*Galeria elevation zoom con fancybox*/
+.gallery {
+	display: flex;
+	justify-content: center;
+}
+
+.gallery .active, .gallery a:hover {
+	border: solid 1px #757575;
+	text-decoration: none;
+}
+
+/* Fin Galeria elevation zoom con fancybox*/
