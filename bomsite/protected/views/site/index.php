@@ -1,10 +1,35 @@
-<div class="flipbook-viewport">
+<div class="flipbook-viewport computer">
 	<div class="container">
 		<div class="flipbook">
 
+			<div class="flipbook-sheet portada">
+				<div class="title align-center">
+					<br/><br/><br/>
+					<h1>Botas y Botines BOM</h1>
+					<br/><br/><br/>
+					<h3>Catálogo de zapatos</h3>
+				</div>
+				<br/><br/><br/>
+				<div class="align-center">
+					<img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png">
+				</div>
+				<div class="instruccion avanzar-arriba parpadea">
+					<img src="<?= Yii::app()->request->baseUrl ?>/images/instrucciones/avanzar_pagina.png" alt="Siguiente página" title="Página siguiente" >
+				</div>
+				<div class="instruccion avanzar-abajo">
+					<img src="<?= Yii::app()->request->baseUrl ?>/images/instrucciones/avanzar_pagina_abajo.png" alt="Siguiente página" title="Página siguiente" >
+				</div>
+				<div class="instruccion regresar-arriba parpadea">
+					<img src="<?= Yii::app()->request->baseUrl ?>/images/instrucciones/regresar_pagina.png" alt="Página anterior" title="Página anterior" >
+				</div>
+				<div class="instruccion regresar-abajo">
+					<img src="<?= Yii::app()->request->baseUrl ?>/images/instrucciones/regresar_pagina_abajo.png" alt="Página anterior" title="Página anterior" >
+				</div>
+			</div>
+
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/derecho.jpg"/>
 						 
 						<div id="gallery_01" class="gallery"> 
@@ -23,15 +48,51 @@
 							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/frente.jpg">
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_00/frente.jpg" />
 							</a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/suelas/tzo_negro.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/suelas/tzo_negro.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/suelas/tzo_negro.jpg" />
+							</a>
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Agujeta 00 S/TZO</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Alpina</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>14 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_02" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/derecho.jpg"/>
 						 
 						<div id="gallery_02" class="gallery"> 
@@ -50,10 +111,11 @@
 							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/frente.jpg">
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/alpina/frente.jpg" />
 							</a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/suelas/mil_rayas.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/suelas/mil_rayas.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/suelas/mil_rayas.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -77,7 +139,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_03" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/derecho.jpg"/>
 						 
 						<div id="gallery_03" class="gallery"> 
@@ -99,12 +161,49 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Botin Charro S/T</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>12 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Hueso" title="Hueso">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul" title="Azul">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Rojo" title="Rojo">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Blanco" title="Blanco">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul Marino" title="Azul Marino">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Verde" title="Verde">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Café Claro" title="Café Claro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Beige" title="Beige">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Agujeta 02</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_04" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/derecho.jpg"/>
 						 
 						<div id="gallery_04" class="gallery"> 
@@ -124,9 +223,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -150,7 +246,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_05" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/derecho.jpg"/>
 						 
 						<div id="gallery_05" class="gallery"> 
@@ -172,12 +268,45 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Cañera</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Cat S/H</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_06" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/derecho.jpg"/>
 						 
 						<div id="gallery_06" class="gallery"> 
@@ -197,9 +326,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sh/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -223,7 +349,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_07" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/escolar_shuany/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/escolar_shuany/derecho.jpg"/>
 						 
 						<div id="gallery_07" class="gallery"> 
@@ -245,12 +371,40 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Escolar S/HUANY</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>18 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Jeet S/Cat</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>18 - 30
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_08" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/jeet_scat/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/jeet_scat/derecho.jpg"/>
 						 
 						<div id="gallery_08" class="gallery"> 
@@ -270,9 +424,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/jeet_scat/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -296,7 +447,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_09" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_cuna/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_cuna/derecho.jpg"/>
 						 
 						<div id="gallery_09" class="gallery"> 
@@ -318,12 +469,44 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Medio Botín Cuña</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Palermo S/T</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_10" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/palermo_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/palermo_st/derecho.jpg"/>
 						 
 						<div id="gallery_10" class="gallery"> 
@@ -343,9 +526,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/palermo_st/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -369,7 +549,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_11" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_camu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_camu/derecho.jpg"/>
 						 
 						<div id="gallery_11" class="gallery"> 
@@ -391,12 +571,40 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Poly S/TZO Camuflajeado</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Hueso" title="Hueso">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Poly S/TZO</h1>
+							<h1>Beige</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/beige.png" width="30px" alt="Beige" title="Beige">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_12" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_beige/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_beige/derecho.jpg"/>
 						 
 						<div id="gallery_12" class="gallery"> 
@@ -416,9 +624,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_stzo_beige/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -442,7 +647,104 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_25" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_beige/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_beige/derecho.jpg"/>
+						 
+						<div id="gallery_25" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_beige/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_beige/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_beige/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_beige/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_beige/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_beige/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_beige/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_beige/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_beige/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_beige/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_beige/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_beige/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Poly Bajito Beige</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/beige.png" width="30px" alt="Beige" title="Beige">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Poly S/TZO</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Hueso" title="Hueso">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_26" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_negro/derecho.jpg"/>
+						 
+						<div id="gallery_26" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_negro/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_stzo_negro/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_negro/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_negro/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_stzo_negro/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_negro/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_negro/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_stzo_negro/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_stzo_negro/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_stzo_negro/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_stzo_negro/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_25").elevateZoom({gallery:'gallery_25', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_25").bind("click", function(e) {  
+						  var ez =   $('#img_25').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_26").elevateZoom({gallery:'gallery_26', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_26").bind("click", function(e) {  
+						  var ez =   $('#img_26').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_13" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rokoso_miel/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rokoso_miel/derecho.jpg"/>
 						 
 						<div id="gallery_13" class="gallery"> 
@@ -464,12 +766,44 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Rokoso</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Roper Cuña</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>14 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_14" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_cuna/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_cuna/derecho.jpg"/>
 						 
 						<div id="gallery_14" class="gallery"> 
@@ -489,9 +823,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_cuna/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -515,7 +846,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_15" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shimalaya/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shimalaya/derecho.jpg"/>
 						 
 						<div id="gallery_15" class="gallery"> 
@@ -537,12 +868,45 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Roper S/Himalaya</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Roper S/T 05</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_16" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05/derecho.jpg"/>
 						 
 						<div id="gallery_16" class="gallery"> 
@@ -562,9 +926,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_05/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -588,7 +949,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_17" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo/derecho.jpg"/>
 						 
 						<div id="gallery_17" class="gallery"> 
@@ -610,12 +971,45 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Rudo</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Texas S/H</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_18" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_sh/derecho.jpg"/>
 						 
 						<div id="gallery_18" class="gallery"> 
@@ -635,9 +1029,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_sh/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -661,7 +1052,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_19" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_sv/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_sv/derecho.jpg"/>
 						 
 						<div id="gallery_19" class="gallery"> 
@@ -683,12 +1074,45 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Roper T/P C/A S/V</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Botín Tacón</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_20" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_tacon/derecho.jpg"/>
 						 
 						<div id="gallery_20" class="gallery"> 
@@ -708,9 +1132,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_tacon/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -734,7 +1155,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_21" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro/derecho.jpg"/>
 						 
 						<div id="gallery_21" class="gallery"> 
@@ -756,12 +1177,53 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Botín Charro</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>12 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Hueso" title="Hueso">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul" title="Azul">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Rojo" title="Rojo">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Blanco" title="Blanco">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul Marino" title="Azul Marino">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Verde" title="Verde">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Café Claro" title="Café Claro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Beige" title="Beige">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Texas Tacón</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_22" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg"/>
 						 
 						<div id="gallery_22" class="gallery"> 
@@ -781,9 +1243,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -807,7 +1266,7 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-7 align-center images-container">
 						<img id="img_23" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/kongo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/kongo/derecho.jpg"/>
 						 
 						<div id="gallery_23" class="gallery"> 
@@ -829,12 +1288,45 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>Kongo</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>18 - 30
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Medio Botín</h1>
+							<h1>S/PU</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
 						<img id="img_24" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg"/>
 						 
 						<div id="gallery_24" class="gallery"> 
@@ -854,9 +1346,6 @@
 								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/frente.jpg" />
 							</a>
 						</div>
-					</div>
-					<div class="col-md-5">
-						Texto informativo
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -880,392 +1369,1434 @@
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<div class="col-md-7 align-center">
-						<img id="img_25" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg"/>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_27" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_sw/derecho.jpg"/>
 						 
-						<div id="gallery_25" class="gallery"> 
-							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/derecho.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/derecho.jpg" />
+						<div id="gallery_27" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_sw/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_sw/derecho.jpg" />
 							  </a>
 							   
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/atras.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/atras.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_sw/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_sw/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_sw/atras.jpg" />
 							  </a>
 							 
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/izquierdo.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/izquierdo.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_sw/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_sw/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_sw/izquierdo.jpg" />
 							  </a>
 							 
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/medio_botin_spu/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/medio_botin_spu/frente.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/medio_botin_spu/frente.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_sw/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_sw/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_sw/frente.jpg" />
 							</a>
 						</div>
 					</div>
 					<div class="col-md-5">
-						Texto informativo
+						<div class="product-information">
+							<h1>May S/W</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="col-md-7 align-center">
-						<img id="img_26" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg"/>
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Huany S/W</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_28" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/huany_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/huany_sw/derecho.jpg"/>
 						 
-						<div id="gallery_26" class="gallery"> 
-							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/derecho.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/derecho.jpg" />
+						<div id="gallery_28" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/huany_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/huany_sw/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/huany_sw/derecho.jpg" />
 							  </a>
 							   
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/atras.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/atras.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/huany_sw/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/huany_sw/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/huany_sw/atras.jpg" />
 							  </a>
 							 
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/izquierdo.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/izquierdo.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/huany_sw/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/huany_sw/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/huany_sw/izquierdo.jpg" />
 							  </a>
 							 
-							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/texas_tacon/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/texas_tacon/frente.jpg">
-								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/texas_tacon/frente.jpg" />
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/huany_sw/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/huany_sw/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/huany_sw/frente.jpg" />
 							</a>
 						</div>
 					</div>
-					<div class="col-md-5">
-						Texto informativo
-					</div>
 				</div>
 				<script type="text/javascript">
-					$("#img_25").elevateZoom({gallery:'gallery_25', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					$("#img_27").elevateZoom({gallery:'gallery_27', cursor: 'pointer', galleryActiveClass: 'active'}); 
 					//pass the images to Fancybox
-					$("#img_25").bind("click", function(e) {  
-						  var ez =   $('#img_25').data('elevateZoom'); 
+					$("#img_27").bind("click", function(e) {  
+						  var ez =   $('#img_27').data('elevateZoom'); 
 						 $.fancybox(ez.getGalleryList());
 						  return false;
 					});
 
-					$("#img_26").elevateZoom({gallery:'gallery_26', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					$("#img_28").elevateZoom({gallery:'gallery_28', cursor: 'pointer', galleryActiveClass: 'active'}); 
 					//pass the images to Fancybox
-					$("#img_26").bind("click", function(e) {  
-						  var ez =   $('#img_26').data('elevateZoom'); 
+					$("#img_28").bind("click", function(e) {  
+						  var ez =   $('#img_28').data('elevateZoom'); 
 						 $.fancybox(ez.getGalleryList());
 						  return false;
 					});
 				</script>
 			</div>
 
-			<!-- Probando nueva forma de mostrar imágenes -->
-			<div class="flipbook-sheet">
-				<div class="product-details">
-					<div class="product-images col-md-7">
-						<div class="row big-image">
-							<img id="ropper_cuna_current" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_cuna/derecho.png">
-						</div>
-						<div class="row thumbnails" data-model="ropper_cuna">
-							<img data-type="zapato" data-image="derecho" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_cuna/derecho.jpg">
-							<img data-type="zapato" data-image="atras" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_cuna/atras.jpg">
-							<img data-type="zapato" data-image="izquierdo" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_cuna/izquierdo.jpg">
-							<img data-type="zapato" data-image="frente" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_cuna/frente.jpg">
-							<img data-type="suela" data-image="mil_rayas" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/suelas/mil_rayas.jpg">
-						</div>
-					</div>
-					<div class="product-information col-md-5">
-
-					</div>
-				</div>
-			</div>
-			<!-- Fin de la prueba de imágenes -->
-
-			<div class="flipbook-sheet portada">
-				<div class="title align-center">
-					<br/><br/><br/>
-					<h1>Botas y Botines BOM</h1>
-					<br/><br/><br/>
-					<h3>Catálogo de zapatos</h3>
-				</div>
-				<br/><br/><br/>
-				<div class="align-center">
-					<img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png">
-				</div>
-			</div>
-
 			<div class="flipbook-sheet">
 				<div class="row">
-					<br/><br/>
-					<div id="image_holder_1" data-num="1" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_1" src="<?= Yii::app()->request->baseUrl ?>/images/360/botin_tacon/Imagen.png"  >
-						<div class="align-center">
-							<h3>Botín charro</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_29" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st_africa/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st_africa/derecho.jpg"/>
+						 
+						<div id="gallery_29" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st_africa/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st_africa/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st_africa/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st_africa/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st_africa/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st_africa/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st_africa/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st_africa/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st_africa/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st_africa/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st_africa/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st_africa/frente.jpg" />
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/botin_mil_rayas.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Botín Charro S/T</h1>
+							<h1>Africa</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>12 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Ropper 02 S/T</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
-					<div id="image_holder_2" data-num="2" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_2" src="<?= Yii::app()->request->baseUrl ?>/images/360/alpina/Imagen.png"  >
-						<div class="align-center">
-							<h3>Alpina</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_30" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_02/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_02/derecho.jpg"/>
+						 
+						<div id="gallery_30" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_02/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_02/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_02/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_02/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_02/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_02/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_02/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_02/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_02/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_02/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_02/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_02/frente.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/alpina_mil_rayas.png">
 					</div>
 				</div>
-			</div>
+				<script type="text/javascript">
+					$("#img_29").elevateZoom({gallery:'gallery_29', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_29").bind("click", function(e) {  
+						  var ez =   $('#img_29').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
 
-			<div class="flipbook-sheet">
-				<div class="row">
-					<br/><br/>
-					<div id="image_holder_3" data-num="3" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_3" src="<?= Yii::app()->request->baseUrl ?>/images/360/cat/Imagen.png"  >
-						<div class="align-center">
-							<h3>Cat</h3>
-						</div>
-					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/himalaya.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
-						</div>
-					</div>
-					<div id="image_holder_4" data-num="4" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_4" src="<?= Yii::app()->request->baseUrl ?>/images/360/poly/Imagen.png"  >
-						<div class="align-center">
-							<h3>Poly S/TZO</h3>
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/tozaro_poly.png">
-					</div>
-				</div>
+					$("#img_30").elevateZoom({gallery:'gallery_30', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_30").bind("click", function(e) {  
+						  var ez =   $('#img_30').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
 			</div>
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<br/><br/>
-					<div id="image_holder_5" data-num="5" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_5" src="<?= Yii::app()->request->baseUrl ?>/images/360/rokoso/Imagen.png"  >
-						<div class="align-center">
-							<h3>Rokoso</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_31" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_stzo/derecho.jpg"/>
+						 
+						<div id="gallery_31" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_stzo/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_stzo/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_stzo/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_stzo/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_stzo/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_stzo/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_stzo/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_stzo/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_stzo/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_stzo/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_stzo/frente.jpg" />
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/tozaro.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Agujeta 02 S/TZO</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>12 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Agujeta Tacón</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
-					<div id="image_holder_6" data-num="6" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_6" src="<?= Yii::app()->request->baseUrl ?>/images/360/ropper/Imagen.png"  >
-						<div class="align-center">
-							<h3>Ropper Cuña</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_32" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_tacon/derecho.jpg"/>
+						 
+						<div id="gallery_32" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_tacon/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_tacon/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_tacon/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_tacon/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_tacon/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_tacon/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_tacon/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_tacon/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_tacon/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_tacon/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_tacon/frente.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/alpina_mil_rayas.png">
 					</div>
 				</div>
+				<script type="text/javascript">
+					$("#img_31").elevateZoom({gallery:'gallery_31', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_31").bind("click", function(e) {  
+						  var ez =   $('#img_31').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_32").elevateZoom({gallery:'gallery_32', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_32").bind("click", function(e) {  
+						  var ez =   $('#img_32').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
 			</div>
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<br/><br/>
-					<div id="image_holder_7" data-num="7" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_7" src="<?= Yii::app()->request->baseUrl ?>/images/360/botin_charro_st/Imagen.png"  >
-						<div class="align-center">
-							<h3>Botín Charro S/T</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_33" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_stzo/derecho.jpg"/>
+						 
+						<div id="gallery_33" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_stzo/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_stzo/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_stzo/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_stzo/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_stzo/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_stzo/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_stzo/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_stzo/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_stzo/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_stzo/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_stzo/frente.jpg" />
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/trebol.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Cat S/TZO</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Ropper S/PU</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
-					<div id="image_holder_8" data-num="8" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_8" src="<?= Yii::app()->request->baseUrl ?>/images/360/agujeta_02/Imagen.png"  >
-						<div class="align-center">
-							<h3>Agujeta 02</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_34" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_spu/derecho.jpg"/>
+						 
+						<div id="gallery_34" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_spu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_spu/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_spu/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_spu/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_spu/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_spu/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_spu/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_spu/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_spu/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_spu/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_spu/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_spu/frente.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/agujeta_02.png">
 					</div>
 				</div>
+				<script type="text/javascript">
+					$("#img_33").elevateZoom({gallery:'gallery_33', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_33").bind("click", function(e) {  
+						  var ez =   $('#img_33').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_34").elevateZoom({gallery:'gallery_34', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_34").bind("click", function(e) {  
+						  var ez =   $('#img_34').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
 			</div>
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<br/><br/>
-					<div id="image_holder_9" data-num="9" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_9" src="<?= Yii::app()->request->baseUrl ?>/images/360/escolar/Imagen.png"  >
-						<div class="align-center">
-							<h3>Escolar</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_35" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon_ca/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon_ca/derecho.jpg"/>
+						 
+						<div id="gallery_35" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon_ca/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon_ca/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon_ca/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon_ca/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon_ca/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon_ca/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon_ca/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon_ca/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon_ca/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon_ca/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon_ca/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon_ca/frente.jpg" />
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/trebol.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Ropper Tacón C/A</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Ropper Tacón</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
-					<div id="image_holder_10" data-num="10" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_10" src="<?= Yii::app()->request->baseUrl ?>/images/360/rudo/Imagen.png"  >
-						<div class="align-center">
-							<h3>Rudo</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_36" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon/derecho.jpg"/>
+						 
+						<div id="gallery_36" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tacon/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tacon/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tacon/frente.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/agujeta_02.png">
 					</div>
 				</div>
+				<script type="text/javascript">
+					$("#img_35").elevateZoom({gallery:'gallery_35', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_35").bind("click", function(e) {  
+						  var ez =   $('#img_35').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_36").elevateZoom({gallery:'gallery_36', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_36").bind("click", function(e) {  
+						  var ez =   $('#img_36').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
 			</div>
 
 			<div class="flipbook-sheet">
 				<div class="row">
-					<br/><br/>
-					<div id="image_holder_11" data-num="11" class="image-holder col-sm-7 col-md-6 image-360">
-						<img id="product_image_11" src="<?= Yii::app()->request->baseUrl ?>/images/360/ropper_tp/Imagen.png"  >
-						<div class="align-center">
-							<h3>Ropper T/P C/A</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_37" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/himalaya/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/himalaya/derecho.jpg"/>
+						 
+						<div id="gallery_37" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/himalaya/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/himalaya/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/himalaya/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/himalaya/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/himalaya/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/himalaya/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/himalaya/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/himalaya/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/himalaya/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/himalaya/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/himalaya/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/himalaya/frente.jpg" />
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-2 col-md-2">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/suela_ropper_tp.png">
-					</div>
-					<div class="model-information col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Himalaya</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="row">
-					<br/><br/>
-					<div class="model-information align-right col-sm-3 col-md-4">
-						<p>Tallas: 15-25</p>
-						<p>Colores: Negro y Café</p>
-						<div class="colores">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px">
-							<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Botín </h1>
+							<h1>S/Himalaya</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
 						</div>
 					</div>
-					<div id="image_holder_12" data-num="12" class="image-holder image-360 col-sm-6 col-md-5">
-						<img id="product_image_12" src="<?= Yii::app()->request->baseUrl ?>/images/360/rudo/Imagen.png"  >
-						<div class="align-center">
-							<h3>Rudo</h3>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_38" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shimalaya/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shimalaya/derecho.jpg"/>
+						 
+						<div id="gallery_38" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shimalaya/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shimalaya/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shimalaya/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shimalaya/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shimalaya/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shimalaya/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shimalaya/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shimalaya/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shimalaya/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shimalaya/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shimalaya/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shimalaya/frente.jpg" />
+							</a>
 						</div>
-					</div>
-					<div class="col-sm-3 col-md-3">
-						<img class="foto-suela" src="<?= Yii::app()->request->baseUrl ?>/images/suelas/agujeta_02.png">
 					</div>
 				</div>
+				<script type="text/javascript">
+					$("#img_37").elevateZoom({gallery:'gallery_37', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_37").bind("click", function(e) {  
+						  var ez =   $('#img_37').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_38").elevateZoom({gallery:'gallery_38', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_38").bind("click", function(e) {  
+						  var ez =   $('#img_38').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_39" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_02_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_02_sw/derecho.jpg"/>
+						 
+						<div id="gallery_39" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_02_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_02_sw/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_02_sw/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_02_sw/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_02_sw/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_02_sw/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_02_sw/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_02_sw/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_02_sw/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_02_sw/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_02_sw/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_02_sw/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Ropper 02 S/W</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Cat S/W </h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_40" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sw/derecho.jpg"/>
+						 
+						<div id="gallery_40" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sw/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sw/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sw/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sw/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sw/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sw/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sw/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sw/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sw/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sw/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sw/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_39").elevateZoom({gallery:'gallery_39', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_39").bind("click", function(e) {  
+						  var ez =   $('#img_39').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_40").elevateZoom({gallery:'gallery_40', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_40").bind("click", function(e) {  
+						  var ez =   $('#img_40').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_41" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo_sw/derecho.jpg"/>
+						 
+						<div id="gallery_41" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo_sw/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo_sw/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/rudo_sw/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo_sw/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo_sw/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/rudo_sw/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo_sw/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo_sw/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/rudo_sw/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/rudo_sw/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/rudo_sw/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/rudo_sw/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Rudo S/W</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Ropper T/P</h1>
+							<h1>C/A S/T</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_42" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_st/derecho.jpg"/>
+						 
+						<div id="gallery_42" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_st/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_ca_st/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_st/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_st/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_ca_st/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_st/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_st/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_ca_st/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_ca_st/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_ca_st/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_ca_st/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_41").elevateZoom({gallery:'gallery_41', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_41").bind("click", function(e) {  
+						  var ez =   $('#img_41').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_42").elevateZoom({gallery:'gallery_42', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_42").bind("click", function(e) {  
+						  var ez =   $('#img_42').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_43" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05_camu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05_camu/derecho.jpg"/>
+						 
+						<div id="gallery_43" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05_camu/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05_camu/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_05_camu/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05_camu/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05_camu/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_05_camu/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05_camu/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05_camu/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_05_camu/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_st_05_camu/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_st_05_camu/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_st_05_camu/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Ropper S/T 05 Camuflajeado</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Ropper</h1>
+								<h1>S/HUANY</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_44" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shuany/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shuany/derecho.jpg"/>
+						 
+						<div id="gallery_44" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shuany/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shuany/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_shuany/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shuany/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shuany/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_shuany/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shuany/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shuany/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_shuany/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_shuany/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_shuany/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_shuany/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_43").elevateZoom({gallery:'gallery_43', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_43").bind("click", function(e) {  
+						  var ez =   $('#img_43').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_44").elevateZoom({gallery:'gallery_44', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_44").bind("click", function(e) {  
+						  var ez =   $('#img_44').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_45" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_st/derecho.jpg"/>
+						 
+						<div id="gallery_45" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_st/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_st/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_st/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_st/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_st/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_st/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_st/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_st/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02_st/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02_st/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02_st/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Agujeta 02 S/T</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Botín</h1>
+							<h1>S/HUANY</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_46" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shuany/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shuany/derecho.jpg"/>
+						 
+						<div id="gallery_46" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shuany/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shuany/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shuany/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shuany/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shuany/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shuany/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shuany/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shuany/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shuany/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_shuany/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_shuany/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_shuany/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_45").elevateZoom({gallery:'gallery_45', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_45").bind("click", function(e) {  
+						  var ez =   $('#img_45').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_46").elevateZoom({gallery:'gallery_46', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_46").bind("click", function(e) {  
+						  var ez =   $('#img_46').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_47" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_stzo/derecho.jpg"/>
+						 
+						<div id="gallery_47" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_stzo/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_stzo/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_stzo/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_stzo/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_stzo/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_stzo/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_stzo/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_stzo/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_stzo/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/may_stzo/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/may_stzo/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/may_stzo/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>May S/TZO</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>22 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Zapatilla</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>18 - 26
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_48" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/zapatilla/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/zapatilla/derecho.jpg"/>
+						 
+						<div id="gallery_48" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/zapatilla/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/zapatilla/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/zapatilla/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/zapatilla/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/zapatilla/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/zapatilla/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/zapatilla/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/zapatilla/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/zapatilla/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/zapatilla/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/zapatilla/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/zapatilla/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_47").elevateZoom({gallery:'gallery_47', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_47").bind("click", function(e) {  
+						  var ez =   $('#img_47').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_48").elevateZoom({gallery:'gallery_48', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_48").bind("click", function(e) {  
+						  var ez =   $('#img_48').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_49" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_sa/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_sa/derecho.jpg"/>
+						 
+						<div id="gallery_49" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_sa/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_sa/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_sa/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_sa/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_sa/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_sa/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_sa/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_sa/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_sa/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/ropper_tp_sa/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/ropper_tp_sa/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/ropper_tp_sa/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Ropper T/P S/A</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>17 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Liverpool</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_50" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_negro/derecho.jpg"/>
+						 
+						<div id="gallery_50" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_negro/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_negro/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_negro/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_negro/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_negro/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_negro/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_negro/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_negro/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_negro/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_negro/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_negro/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_49").elevateZoom({gallery:'gallery_49', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_49").bind("click", function(e) {  
+						  var ez =   $('#img_49').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_50").elevateZoom({gallery:'gallery_50', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_50").bind("click", function(e) {  
+						  var ez =   $('#img_50').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_51" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_miel_doblado/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_miel_doblado/derecho.jpg"/>
+						 
+						<div id="gallery_51" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_miel_doblado/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_miel_doblado/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_miel_doblado/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_miel_doblado/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_miel_doblado/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_miel_doblado/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_miel_doblado/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_miel_doblado/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_miel_doblado/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/liverpool_miel_doblado/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/liverpool_miel_doblado/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/liverpool_miel_doblado/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Liverpool</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Agujeta S/H</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_52" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_sh/derecho.jpg"/>
+						 
+						<div id="gallery_52" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_sh/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_sh/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_sh/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_sh/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_sh/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_sh/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_sh/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_sh/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_sh/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_sh/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_sh/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_51").elevateZoom({gallery:'gallery_51', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_51").bind("click", function(e) {  
+						  var ez =   $('#img_51').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_52").elevateZoom({gallery:'gallery_52', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_52").bind("click", function(e) {  
+						  var ez =   $('#img_52').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
+			</div>
+
+			<div class="flipbook-sheet">
+				<div class="row">
+					<div class="col-md-7 align-center images-container">
+						<img id="img_53" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_miel_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_miel_negro/derecho.jpg"/>
+						 
+						<div id="gallery_53" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_miel_negro/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_miel_negro/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_miel_negro/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_miel_negro/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_miel_negro/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_miel_negro/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_miel_negro/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_miel_negro/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_miel_negro/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/poly_bajito_miel_negro/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/poly_bajito_miel_negro/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/poly_bajito_miel_negro/frente.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="product-information">
+							<h1>Poly Bajito Miel/Negro</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-information float-right">
+							<h1>Agujeta Cuña</h1>
+							<br/>
+							<p>
+								<span class="catalog-label">Números</span>25 - 31
+								<br/>
+								<span class="catalog-label">Colores</span><br/>
+							</p>
+							<div class="colores">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+								<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 align-center images-container">
+						<img id="img_54" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_cuna/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_cuna/derecho.jpg"/>
+						 
+						<div id="gallery_54" class="gallery"> 
+							<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_cuna/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_cuna/derecho.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_cuna/derecho.jpg" />
+							  </a>
+							   
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_cuna/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_cuna/atras.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_cuna/atras.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_cuna/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_cuna/izquierdo.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_cuna/izquierdo.jpg" />
+							  </a>
+							 
+							  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_cuna/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_cuna/frente.jpg">
+								<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_cuna/frente.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#img_53").elevateZoom({gallery:'gallery_53', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_53").bind("click", function(e) {  
+						  var ez =   $('#img_53').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+
+					$("#img_54").elevateZoom({gallery:'gallery_54', cursor: 'pointer', galleryActiveClass: 'active'}); 
+					//pass the images to Fancybox
+					$("#img_54").bind("click", function(e) {  
+						  var ez =   $('#img_54').data('elevateZoom'); 
+						 $.fancybox(ez.getGalleryList());
+						  return false;
+					});
+				</script>
 			</div>
 
 			<div class="flipbook-sheet portada">
@@ -1277,59 +2808,332 @@
 	</div>
 </div>
 
-<script type="text/javascript">
-	$( document ).ready(function() {
-		alto_portada = 0;
-		$('.flipbook-sheet').each(function(){
-			alto = $(this).height();
-			if (alto > alto_portada) {
-				alto_portada = alto;
-			}
+<!-- ************************** -->
+<!-- ************************** -->
+<!-- Version movil del catalogo -->
+<!-- ************************** -->
+<!-- ************************** -->
+<div class="mobile">
+	<div class="title align-center">
+		<br/><br/><br/>
+		<h1>Botas y Botines BOM</h1>
+		<h3>La marca que dura para siempre...</h3>
+		<br/><br/>
+		<h3>Catálogo de zapatos</h3>
+	</div>
+	<br/><br/>
+	<div class="align-center">
+		<img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png">
+	</div>
+	<br/><br/>
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Agujeta 00 S/TZO</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>22 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+			</div>
+		</div>
+	</div>
+	<div class="row align-center images-container">
+		<img id="img_001" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/derecho.jpg"/>
+		 
+		<div id="gallery_001" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_00/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_00/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_00/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_00/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_00/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_00/frente.jpg" />
+			</a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/suelas/tzo_negro.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/suelas/tzo_negro.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/suelas/tzo_negro.jpg" />
+			</a>
+		</div>
+	</div>
+	
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Alpina</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>14 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+			</div>
+		</div>
+	</div>
+
+	<div class="row align-center images-container">
+		<img id="img_002" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/derecho.jpg"/>
+		 
+		<div id="gallery_002" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/alpina/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/alpina/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/alpina/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/alpina/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/alpina/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/alpina/frente.jpg" />
+			</a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/suelas/mil_rayas.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/suelas/mil_rayas.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/suelas/mil_rayas.jpg" />
+			</a>
+		</div>
+	</div>
+		
+	<script type="text/javascript">
+		$("#img_001").elevateZoom({gallery:'gallery_001', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_001").bind("click", function(e) {  
+			  var ez =   $('#img_001').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
 		});
-		$('.portada').height(alto_portada);
-		$('.flipbook-sheet').height(alto_portada);
-		$('.image-holder').each(function(){
-			num = $(this).data('num');
-			//Lets create an instance of the viewer
-			var presentation = new javascriptViewer($('#product_image_'+num),{
-				total_frames:14,
-				target_id:'image_holder_'+num
-			});
 
-			//Lets start the presentation
-			presentation.start();
+		$("#img_002").elevateZoom({gallery:'gallery_002', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_002").bind("click", function(e) {  
+			  var ez =   $('#img_002').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
 		});
-	});
+	</script>
+	
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Botin Charro S/T</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>12 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Hueso" title="Hueso">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul" title="Azul">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Rojo" title="Rojo">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Blanco" title="Blanco">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Azul Marino" title="Azul Marino">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Verde" title="Verde">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Café Claro" title="Café Claro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Beige" title="Beige">
+			</div>
+		</div>
+	</div>
+	<div class="row align-center images-container">
+		<img id="img_003" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/derecho.jpg"/>
+		 
+		<div id="gallery_003" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/botin_charro_st/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/botin_charro_st/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/botin_charro_st/frente.jpg" />
+			</a>
+		</div>
+	</div>
+	
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Agujeta 02</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>17 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+			</div>
+		</div>
+	</div>
+	<div class="row align-center images-container">
+		<img id="img_004" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/derecho.jpg"/>
+		 
+		<div id="gallery_004" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/agujeta_02/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/agujeta_02/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/agujeta_02/frente.jpg" />
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#img_003").elevateZoom({gallery:'gallery_003', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_003").bind("click", function(e) {  
+			  var ez =   $('#img_003').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
+		});
 
-	function loadApp() {
-		width = $('#content').width();
-		height = $('.flipbook').height();
-		sheetNumber = $('.flipbook .flipbook-sheet').length;
-		height = height/sheetNumber;
-// Create the flipbook
-$('.flipbook').turn({
-// Width
-width:width,
+		$("#img_004").elevateZoom({gallery:'gallery_004', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_004").bind("click", function(e) {  
+			  var ez =   $('#img_004').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
+		});
+	</script>
 
-// Height
-height:height,
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Cañera</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>22 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+			</div>
+		</div>
+	</div>
+	<div class="row align-center images-container">
+		<img id="img_005" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/derecho.jpg"/>
+		 
+		<div id="gallery_005" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/canera/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/canera/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/canera/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/canera/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/canera/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/canera/frente.jpg" />
+			</a>
+		</div>
+	</div>
+	
 
-// Elevation
-elevation: 50,
+	<hr/>
+	<div class="row">
+		<div class="product-information">
+			<h1>Cat S/H</h1>
+			<br/>
+			<p>
+				<span class="catalog-label">Números</span>25 - 31
+				<br/>
+				<span class="catalog-label">Colores</span><br/>
+			</p>
+			<div class="colores">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/negro.png" width="30px" alt="Negro" title="Negro">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/miel.png" width="30px" alt="Miel" title="Miel">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/shedron.png" width="30px" alt="Shedron" title="Shedron">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/cafe.png" width="30px" alt="Café" title="Café">
+				<img src="<?= Yii::app()->request->baseUrl ?>/images/colores/vino.png" width="30px" alt="Vino" title="Vino">
+			</div>
+		</div>
+	</div>
+	<div class="row align-center images-container">
+		<img id="img_006" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/derecho.jpg"/>
+		 
+		<div id="gallery_006" class="gallery"> 
+			<a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/derecho.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/derecho.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sh/derecho.jpg" />
+			  </a>
+			   
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/atras.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/atras.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sh/atras.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/izquierdo.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/izquierdo.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sh/izquierdo.jpg" />
+			  </a>
+			 
+			  <a href="#" data-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/mediano/cat_sh/frente.jpg" data-zoom-image="<?= Yii::app()->request->baseUrl ?>/images/modelos/grande/cat_sh/frente.jpg">
+				<img id="img_01" src="<?= Yii::app()->request->baseUrl ?>/images/modelos/mini/cat_sh/frente.jpg" />
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#img_005").elevateZoom({gallery:'gallery_005', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_005").bind("click", function(e) {  
+			  var ez =   $('#img_005').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
+		});
 
-// Enable gradients
-gradients: true,
-
-// Auto center this flipbook
-autoCenter: true
-});
-}
-
-// Load the HTML4 version if there's not CSS transform
-yepnope({
-	test : Modernizr.csstransforms,
-	yep: ['js/turnjs/lib/turn.js'],
-	nope: ['js/turnjs/lib/turn.html4.min.js'],
-	complete: loadApp
-});
-</script>
+		$("#img_006").elevateZoom({gallery:'gallery_006', cursor: 'pointer', galleryActiveClass: 'active'}); 
+		//pass the images to Fancybox
+		$("#img_006").bind("click", function(e) {  
+			  var ez =   $('#img_006').data('elevateZoom'); 
+			 $.fancybox(ez.getGalleryList());
+			  return false;
+		});
+	</script>
+</div>

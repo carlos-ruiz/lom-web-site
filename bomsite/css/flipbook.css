@@ -1,6 +1,7 @@
 .flipbook-sheet {
 	background-color: white;
 	border: solid 1px black;
+	background-color: white;
 }
 
 .image-360 img {
@@ -29,4 +30,8 @@
 
 .foto-suela {
 	height: 200px;
+}
+
+.portada {
+	background-color: white;
 }

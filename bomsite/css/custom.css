@@ -3,13 +3,13 @@
 }
 
 body {
-	background-color: #B71010;
+	background-image: url("/bomwebsite/bomsite/images/fondos/textura.jpg");
 }
 
 #page {
 	padding: 0;
 	margin: 0;
-	background-color: #B71010;
+	background-image: url("/bomwebsite/bomsite/images/fondos/textura.jpg");
 }
 
 #header {
@@ -30,6 +30,10 @@ body {
 
 .align-right {
 	text-align: right;
+}
+
+.float-right {
+	float: right;
 }
 
 #footer {
@@ -130,4 +134,137 @@ body {
 	text-decoration: none;
 }
 
+.gallery a {
+	height: 50px;
+}
+
+.gallery img {
+	height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.images-container {
+	padding: 20px;
+}
+
+.images-container>img {
+	border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 /* Fin Galeria elevation zoom con fancybox*/
+
+.catalog-label {
+	background-color: #E92131;
+	border-radius: 10px;
+	color: white;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.product-information h1 {
+	color: #EC2335;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+.product-information p {
+	line-height: 35px;
+}
+
+.colores img {
+	margin-bottom: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.redes-sociales img:hover {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.redes-sociales a:hover {
+	text-decoration: none;
+}
+
+.footer-titles {
+	font-size: 11pt;
+}
+
+.instruccion {
+	position: absolute;
+	background-color: white;
+	opacity: 0.5;
+	display: none;
+}
+
+.avanzar-arriba {
+	top: 0;
+	right: 0;
+}
+
+.avanzar-abajo {
+	bottom: 0;
+	right: 0;
+}
+
+.regresar-arriba {
+	top: 0;
+	left: 0;
+}
+
+.regresar-abajo {
+	bottom: 0;
+	left: 0;
+}
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 0.5; }
+  50% { opacity: 0.0; }
+  100% { opacity: 0.5; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 0.5; }
+  50% { opacity: 0.0; }
+   100% { opacity: 0.5; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 0.5; }
+   50% { opacity: 0.0; }
+  100% { opacity: 0.5; }
+}
+
+.mobile {
+	background-color: white;
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.computer {
+		display: none;
+	}
+	.product-information {
+		padding-left: 30px;
+	}
+	.mobile {
+		display: block;
+	}
+}
