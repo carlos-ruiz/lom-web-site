@@ -17,7 +17,7 @@ function loadApp() {
 	width = $('#content').width();
 	height = $('.flipbook').height();
 	sheetNumber = $('.flipbook .flipbook-sheet').length;
-	height = height/sheetNumber + 30;
+	height = height/sheetNumber + 50;
 	// Create the flipbook
 	$('.flipbook').turn({
 	// Width

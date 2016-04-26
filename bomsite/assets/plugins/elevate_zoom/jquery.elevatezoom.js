@@ -961,7 +961,7 @@ if ( typeof Object.create !== 'function' ) {
 
 				//If image is on right limit, show zoomWindow on the left side of image
 				left = self.windowOffsetLeft;
-				if ((e.pageX+self.windowOffsetLeft+self.options.zoomWindowWidth) > window.width) {
+				if ((e.pageX+self.options.zoomWindowWidth) > window.width) {
 					left = 0-self.options.zoomWindowWidth;
 				}
 
@@ -1718,7 +1718,6 @@ if ( typeof Object.create !== 'function' ) {
       	var self = this;
 				if(value == 'enable'){self.options.zoomEnabled = true;}
 				if(value == 'disable'){self.options.zoomEnabled = false;}
-
 			}
 
 	};
@@ -1739,7 +1738,7 @@ if ( typeof Object.create !== 'function' ) {
 
 	$.fn.elevateZoom.options = {
 			zoomActivation: "hover", // Can also be click (PLACEHOLDER FOR NEXT VERSION)
-      zoomEnabled: true, //false disables zoomwindow from showing
+			zoomEnabled: true, //false disables zoomwindow from showing
 			preloading: 0, //by default, load all the images, if 0, then only load images after activated (PLACEHOLDER FOR NEXT VERSION)
 			zoomLevel: 1, //default zoom level of image
 			scrollZoom: false, //allow zoom on mousewheel, true to activate
@@ -1763,7 +1762,7 @@ if ( typeof Object.create !== 'function' ) {
 			zoomWindowAlwaysShow: false,
 			zoomTintFadeIn: false,
 			zoomTintFadeOut: false,
-			borderSize: 4,
+			borderSize: 2,
 			showLens: true,
 			borderColour: "#888",
 			lensBorderSize: 1,

@@ -6,6 +6,17 @@
 		<meta name="language" content="es">
 		<meta name=viewport content="width=device-width, initial-scale=1">
 
+		<meta content="Calzado de trabajo rudo BOM. Óptimo para trabajo en campo y uso industrial." name="description">
+		<meta content="botas botines bom trabajo calzado zapatos industrial duradero" name="keywords">
+		<meta content="Calzado Bom" name="author">
+
+		<meta property="og:site_name" content="calzadobom.com">
+		<meta property="og:title" content="Botas y Botines BOM">
+		<meta property="og:description" content="Calzado BOM, zapato de trabajo">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+		<meta property="og:url" content="http://calzadobom.com">
+
 		<link rel="shortcut icon" href="<?= Yii::app()->request->baseurl; ?>/images/logos/favicon.ico">
 
 		<!-- blueprint CSS framework -->

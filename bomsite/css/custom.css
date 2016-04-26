@@ -2,6 +2,10 @@
 	width: 100%;
 }
 
+.description-page {
+	display: none;
+}
+
 body {
 	background-image: url("/bomwebsite/bomsite/images/fondos/textura.jpg");
 }
@@ -200,6 +204,11 @@ body {
 	background-color: white;
 	opacity: 0.5;
 	display: none;
+	width: 45%;
+}
+
+.instruccion img {
+	width: 100%;
 }
 
 .avanzar-arriba {
@@ -257,7 +266,11 @@ body {
 	display: none;
 }
 
-@media (max-width: 992px) {
+.logo-mobile img{
+	max-width: 80%;
+}
+
+@media (max-width: 799px) {
 	.computer {
 		display: none;
 	}
@@ -266,5 +279,41 @@ body {
 	}
 	.mobile {
 		display: block;
+	}
+	.zoomContainer {
+		display: none;
+	}
+	#logo{
+		font-size: 1em; 
+	}
+	#logo img{
+		width: 50px;
+	}
+	.images-container>img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 800px){
+	.images-container>img {
+		max-width: 100%;
+	}
+
+	.gallery {
+		width: 100%;
+		justify-content: flex-start;
+	}
+
+	.gallery a {
+		height: 35px;
+	}
+
+	.product-information h1 {
+		font-size: 18pt;
+		margin: 0;
+	}
+
+	.even .col-sm-5 {
+		padding-left: 30px !important;
 	}
 }
