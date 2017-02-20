@@ -317,3 +317,9 @@ body {
 		padding-left: 30px !important;
 	}
 }
+
+.logo-title {
+	border-radius: 10px;
+	background-color: white;
+	display: inline-block;
+}

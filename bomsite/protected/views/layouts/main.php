@@ -11,8 +11,8 @@
 		<meta content="Calzado Bom" name="author">
 
 		<meta property="og:site_name" content="calzadobom.com">
-		<meta property="og:title" content="Botas y Botines BOM">
-		<meta property="og:description" content="Calzado BOM, zapato de trabajo">
+		<meta property="og:title" content="Calzado LOM">
+		<meta property="og:description" content="Calzado LOM, zapato de trabajo">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
 		<meta property="og:url" content="http://calzadobom.com">
@@ -50,10 +50,17 @@
 
 	<body>
 		<div class="container" id="page">
-			<div id="header">
-				<div id="logo"><img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100"> Catálogo de productos <img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100"></div>
-			</div><!-- header -->
-			<hr/>
+			<!--<div id="header">
+				<div id="logo">
+					<div class="logo-title">
+						<img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100">
+					</div>
+					Catálogo de productos
+					<div class="logo-title">
+						<img src="<?= Yii::app()->request->baseUrl ?>/images/logos/logo.png" width="100">
+					</div>
+				</div>
+			</div> header -->
 			<?php echo $content; ?>
 
 			<div class="clear"></div>
@@ -65,7 +72,7 @@
 					Huaniqueo de Morales, Michoacán
 				</div>
 				<div class="col-md-3">
-					Copyright &copy; <?php echo date('Y'); ?> by Botas y Botines BOM.<br/>
+					Copyright &copy; <?php echo date('Y'); ?> by Calzado LOM.<br/>
 					Todos los derechos reservados.<br/>
 				</div>
 				<div class="col-md-3">
