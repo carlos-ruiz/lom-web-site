@@ -7,13 +7,13 @@
 }
 
 body {
-	background-image: url("/bomwebsite/bomsite/images/fondos/textura.jpg");
+	background-image: url("/images/fondos/textura.jpg");
 }
 
 #page {
 	padding: 0;
 	margin: 0;
-	background-image: url("/bomwebsite/bomsite/images/fondos/textura.jpg");
+	background-image: url("/images/fondos/textura.jpg");
 }
 
 #header {

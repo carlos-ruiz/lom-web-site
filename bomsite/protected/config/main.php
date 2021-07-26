@@ -76,6 +76,11 @@ return array(
 
 	),
 
+	//configuramos el lenguaje
+	'sourceLanguage' => 'es_mx',
+	'language' => 'es_mx',
+	'timeZone' => 'America/Mexico_City',
+
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
